@@ -1,6 +1,6 @@
 # Jupyter-Notebook-Heroku
 
-1. Generate a password.
+1. Generate a password.(password:123)
 
   ```
 ipython -c 'from notebook.auth import passwd; passwd()'
