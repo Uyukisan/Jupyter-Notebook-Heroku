@@ -1,6 +1,6 @@
 # Jupyter-Notebook-Heroku
 
-1. Generate a password.(password:123)
+1. Generate a password.(password:hello,123)
 
   ```
 ipython -c 'from notebook.auth import passwd; passwd()'
@@ -11,7 +11,7 @@ ipython -c 'from notebook.auth import passwd; passwd()'
 2. Copy the generated password.
 
   ```
-argon2:$argon2id$v=19$m=10240,t=10,p=8$YEU/7PpuEWm2RL1uyTCUcA$CZXlloWxuisUMeDX3uJsBMgzXHA1Glh2cdwHmN7X1Qk
+argon2:$argon2id$v=19$m=10240,t=10,p=8$qgz+iCO2d+VH294etutvkQ$22TmcJL1NMtieNlOs12PzQT/BsQr4sXpmI0oseTpZIQ
   ```
 
 3. Click the button to deploy to heroku.
@@ -19,7 +19,8 @@ argon2:$argon2id$v=19$m=10240,t=10,p=8$YEU/7PpuEWm2RL1uyTCUcA$CZXlloWxuisUMeDX3u
    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Uyukisan/Jupyter-Notebook-Heroku)
 
 4. Enter the new app name and the generated password.
-     <img width="673" alt="Deploy the app" src="https://user-images.githubusercontent.com/93468245/178715466-1fb74384-4c7b-45f8-9fb0-6ab52d79be43.png">
+
+  <img width="646" alt="Enter the new app name and the generated password" src="https://user-images.githubusercontent.com/93468245/178729558-11e8e457-6af7-4d9f-b828-c7ff3c7780a0.png">
 
 5. Deploy app.
 
